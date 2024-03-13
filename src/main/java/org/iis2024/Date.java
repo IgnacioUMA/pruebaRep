@@ -26,7 +26,11 @@ public class Date {
     System.out.println("Method added by owner");
   }
 
-
+public Date(int tag, int monat, int jahr){
+    this.day= tag;
+    this.month = monat;
+    this.year = jahr;
+}
 
 
 
